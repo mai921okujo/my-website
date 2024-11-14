@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,35 +8,45 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
     <style>
         .text-primary {
-            color: #4A5568; /* ダークグレー */
+            color: #4A5568;
+            /* ダークグレー */
         }
+
         .bg-cream {
             background-color: #FAF9F6;
         }
+
         .text-accent {
-            color: #D4A373; /* ゴールド調のアクセントカラー */
+            color: #D4A373;
+            /* ゴールド調のアクセントカラー */
         }
+
         .border-accent {
             border-color: #D4A373;
         }
+
         .custom-bg {
-            background-image: url('profile2.jpg'); /* プロフィール画像のURL */
+            background-image: url('profile2.jpg');
+            /* プロフィール画像のURL */
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
         }
+
         .text-highlight {
-            color: #EDEDED; /* ハイライトのライトグレー */
+            color: #EDEDED;
+            /* ハイライトのライトグレー */
         }
     </style>
 </head>
+
 <body class="bg-white text-primary font-serif">
 
     <!-- Header Section -->
     <header class="relative h-screen custom-bg bg-cream">
         <!-- Dark overlay for better text readability -->
         <div class="absolute inset-0 bg-black bg-opacity-30"></div>
-        
+
         <!-- Centered text content -->
         <div class="relative z-10 h-full flex flex-col justify-center items-center text-center p-4">
             <h1 class="text-6xl font-bold tracking-widest mb-4 text-highlight">健康美</h1>
@@ -47,111 +58,130 @@
     <section class="bg-white py-20 px-4">
         <div class="max-w-4xl mx-auto text-center">
             <h2 class="text-3xl font-semibold text-accent tracking-wide">心とカラダの調和を目指して</h2>
-            <p class="mt-6 text-lg text-primary">「健康美」は、心と体をケアし、美と健康のバランスを目指す特別なサロンです。自然の癒しを感じられる空間でリラックスしながら、内側からの美しさを引き出します。</p>
+            <p class="mt-6 text-lg text-primary">
+                「健康美」は、心と体をケアし、美と健康のバランスを目指す特別なサロンです。自然の癒しを感じられる空間でリラックスしながら、内側からの美しさを引き出します。</p>
         </div>
     </section>
 
     <!-- Menu Section -->
-     
+
     <section class="bg-cream py-20 px-4">
         <div class="max-w-6xl mx-auto">
             <h2 class="text-4xl font-semibold text-center text-accent mb-12">メニュー</h2>
             <div class="grid md:grid-cols-2 gap-8">
-                <div class="bg-white rounded-lg shadow-lg p-10 border border-gray-100 hover:border-accent transition-colors duration-300">
+                <div
+                    class="bg-white rounded-lg shadow-lg p-10 border border-gray-100 hover:border-accent transition-colors duration-300">
                     <h3 class="text-2xl font-semibold text-primary">健康美フェイシャル</h3>
                     <p class="mt-4 text-primary">内側から輝く美肌を引き出すフェイシャルケア。</p>
-                    <p class="mt-6 text-accent font-bold text-xl">120分 - 50万円</p>
+                    <p class="mt-6 text-accent font-bold text-xl">60分 - 10万円</p>
                 </div>
-                <div class="bg-white rounded-lg shadow-lg p-10 border border-gray-100 hover:border-accent transition-colors duration-300">
+                <div
+                    class="bg-white rounded-lg shadow-lg p-10 border border-gray-100 hover:border-accent transition-colors duration-300">
                     <h3 class="text-2xl font-semibold text-primary">健康美ボディリラクゼーション</h3>
                     <p class="mt-4 text-primary">整体技術で体を整え、リラクゼーションで心身の健康をサポート。</p>
-                    <p class="mt-6 text-accent font-bold text-xl">150分 - 60万円</p>
+                    <p class="mt-6 text-accent font-bold text-xl">150分 - 30万円</p>
                 </div>
             </div>
         </div>
         <!-- Menu Section -->
- <!-- Premium Menu Section with Rose Background Image -->
-<section class="bg-cover bg-center py-24 px-6 text-center" style="background-image: url('profile4.jpg');">
-    <div class="bg-black bg-opacity-40 py-20 px-4">
-        <div class="max-w-5xl mx-auto">
-            <h2 class="text-5xl font-extrabold text-accent mb-16 tracking-wider border-b-2 border-gold-500 inline-block pb-2">プレミアムメニュー</h2>
-            <p class="text-lg text-gray-300 mb-12 leading-relaxed">
-                特別なお客様に贈る、極上のトリートメントメニュー。心と体を深く癒し、内側から美しさを引き出すための特別なプランです。
-            </p>
+        <!-- Premium Menu Section with Rose Background Image -->
+        <section class="bg-cover bg-center py-24 px-6 text-center" style="background-image: url('profile4.jpg');">
+            <div class="bg-black bg-opacity-40 py-20 px-4">
+                <div class="max-w-5xl mx-auto">
+                    <h2
+                        class="text-5xl font-extrabold text-accent mb-16 tracking-wider border-b-2 border-gold-500 inline-block pb-2">
+                        プレミアムメニュー</h2>
+                    <p class="text-lg text-gray-300 mb-12 leading-relaxed">
+                        特別なお客様に贈る、極上のトリートメントメニュー。心と体を深く癒し、内側から美しさを引き出すための特別なプランです。
+                    </p>
 
-            <!-- Menu Grid: 2 Columns on Medium and Larger Screens -->
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 gap-y-16">
-                
-                <!-- 自律神経バランスプログラム -->
-                <div class="bg-white rounded-lg shadow-lg p-10 border border-gray-100 hover:border-accent transition-colors duration-300">
-                    <h3 class="text-2xl font-semibold text-primary">自律神経バランスプログラム</h3>
-                    <p class="text-gray-400 mb-6 leading-relaxed">自律神経を整えるディープリラクゼーションとアロマセラピーで心身のバランスを調整します。</p>
-                    <p class="mt-6 text-accent font-bold text-xl">120分 - 50万円</p>
-                </div>
+                    <!-- Menu Grid: 2 Columns on Medium and Larger Screens -->
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-12 gap-y-16">
 
-                <!-- 細胞活性リジュベネーションケア -->
-                <div class="bg-white rounded-lg shadow-lg p-10 border border-gray-100 hover:border-accent transition-colors duration-300">
-                    <h3 class="text-2xl font-semibold text-primary">細胞活性リジュベネーションケア</h3>
-                    <p class="text-gray-400 mb-6 leading-relaxed">高濃度美容液とナノ化成分による細胞レベルの活性化で、内側から若々しい輝きを引き出します。</p>
-                    <p class="mt-6 text-accent font-bold text-xl">90分 - 60万円</p>
-                </div>
+                        <!-- 細胞活性リジュベネーションケア -->
+                        <div
+                            class="bg-white rounded-lg shadow-lg p-10 border border-gray-100 hover:border-accent transition-colors duration-300">
+                            <h3 class="text-2xl font-semibold text-primary">細胞活性リジュベネーションケア</h3>
+                            <p class="text-gray-400 mb-6 leading-relaxed">高濃度美容液とナノ化成分による細胞レベルの活性化で、内側から若々しい輝きを引き出します。
+                            </p>
+                            <p class="mt-6 text-accent font-bold text-xl">90分 - 60万円</p>
+                        </div>
 
-                <!-- ゼロビームディープリペア -->
-                <div class="bg-white rounded-lg shadow-lg p-10 border border-gray-100 hover:border-accent transition-colors duration-300">
-                    <h3 class="text-2xl font-semibold text-primary">ゼロビームディープリペア</h3>
-                    <p class="text-gray-400 mb-6 leading-relaxed">最新のゼロビーム技術で肌を奥から修復し、リフトアップと引き締め効果を提供します。</p>
-                    <p class="mt-6 text-accent font-bold text-xl">100分 - 70万円</p>
-                </div>
+                        <!-- ゼロビームディープリペア -->
+                        <div
+                            class="bg-white rounded-lg shadow-lg p-10 border border-gray-100 hover:border-accent transition-colors duration-300">
+                            <h3 class="text-2xl font-semibold text-primary">ゼロビームディープリペア</h3>
+                            <p class="text-gray-400 mb-6 leading-relaxed">最新のゼロビーム技術で肌を奥から修復し、リフトアップと引き締め効果を提供します。</p>
+                            <p class="mt-6 text-accent font-bold text-xl">100分 - 70万円</p>
+                        </div>
 
-                <!-- 宇宙エナジースピリチュアルトリートメント -->
-                <div class="bg-white rounded-lg shadow-lg p-10 border border-gray-100 hover:border-accent transition-colors duration-300">
-                    <h3 class="text-2xl font-semibold text-primary">宇宙エナジースピリチュアルトリートメント</h3>
-                    <p class="text-gray-400 mb-6 leading-relaxed">宇宙由来のミネラルとエネルギーで全身を癒し、深いリラックスとスピリチュアルな癒しを提供します。</p>
-                    <p class="mt-6 text-accent font-bold text-xl">150分 - 80万円</p>
+                        <!-- 宇宙エナジースピリチュアルトリートメント -->
+                        <div
+                            class="bg-white rounded-lg shadow-lg p-10 border border-gray-100 hover:border-accent transition-colors duration-300">
+                            <h3 class="text-2xl font-semibold text-primary">宇宙エナジースピリチュアルトリートメント</h3>
+                            <p class="text-gray-400 mb-6 leading-relaxed">
+                                宇宙由来のミネラルとエネルギーで全身を癒し、深いリラックスとスピリチュアルな癒しを提供します。</p>
+                            <p class="mt-6 text-accent font-bold text-xl">150分 - 80万円</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
+        <!-- Luxury Retreat Plan Section -->
+<section class="bg-cream py-20 px-4">
+    <div class="max-w-5xl mx-auto text-center">
+        <h2 class="text-5xl font-extrabold text-accent mb-8 tracking-wider">究極のラグジュアリー・リトリート プラン</h2>
+        <p class="text-lg text-gray-700 leading-relaxed mb-12">
+            このプランは、心と体を深く癒し、日常から完全に解放されるための最上級の贅沢な体験をお届けします。高級ホテルでの宿泊と、エステサロンでの特別ケア、また厳選された観光・食事体験を組み合わせ、贅沢を尽くしたプランに仕上げました。
+        </p>
+        <p class="text-3xl font-bold text-gold-600 mb-4">7泊８日 100万円</p>
     </div>
 </section>
- 
-    <!-- Reviews Section -->
-    <section class="bg-white py-20 px-4">
-        <div class="max-w-6xl mx-auto">
-            <h2 class="text-3xl font-semibold text-center text-accent mb-10">お客様の声</h2>
-            <div class="grid md:grid-cols-2 gap-8">
-                <div class="bg-cream rounded-lg shadow-lg p-8 border border-accent">
-                    <p class="text-lg text-primary italic">"初めての訪問でしたが、心からリラックスできました。"</p>
-                    <p class="mt-4 text-gray-500 font-bold text-sm">- 40代女性</p>
-                </div>
-                <div class="bg-cream rounded-lg shadow-lg p-8 border border-accent">
-                    <p class="text-lg text-primary italic">"贅沢な空間での施術はまさに特別な体験です。"</p>
-                    <p class="mt-4 text-gray-500 font-bold text-sm">- 30代女性</p>
-                </div>
-                <div class="bg-cream rounded-lg shadow-lg p-8 border border-accent">
-                    <p class="text-lg text-primary italic">"細胞活性リジュベネーションケアを受けて以来、肌がまるで生まれ変わったようにしっとりと潤い、透明感が増しました。施術後から肌のハリが感じられ、自分史上最高の肌に出会えました。これまでにないリフレッシュ感を感じます！"</p>
-                    <p class="mt-4 text-gray-500 font-bold text-sm">- 50代女性</p>
-                </div>
-                <div class="bg-cream rounded-lg shadow-lg p-8 border border-accent">
-                    <p class="text-lg text-primary italic">"自律神経バランスプログラムを受けてから、心身ともに本当にリフレッシュできました。肩こりやストレスがずっと軽くなった感覚が続いています。リラクゼーションマッサージもとても丁寧で、心が解放されるようでした。"</p>
-                    <p class="mt-4 text-gray-500 font-bold text-sm">- 40代女性</p>
+
+
+        <!-- Reviews Section -->
+        <section class="bg-white py-20 px-4">
+            <div class="max-w-6xl mx-auto">
+                <h2 class="text-3xl font-semibold text-center text-accent mb-10">お客様の声</h2>
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div class="bg-cream rounded-lg shadow-lg p-8 border border-accent">
+                        <p class="text-lg text-primary italic">"初めての訪問でしたが、心からリラックスできました。"</p>
+                        <p class="mt-4 text-gray-500 font-bold text-sm">- 40代女性</p>
+                    </div>
+                    <div class="bg-cream rounded-lg shadow-lg p-8 border border-accent">
+                        <p class="text-lg text-primary italic">"贅沢な空間での施術はまさに特別な体験です。"</p>
+                        <p class="mt-4 text-gray-500 font-bold text-sm">- 30代女性</p>
+                    </div>
+                    <div class="bg-cream rounded-lg shadow-lg p-8 border border-accent">
+                        <p class="text-lg text-primary italic">
+                            "細胞活性リジュベネーションケアを受けて以来、肌がまるで生まれ変わったようにしっとりと潤い、透明感が増しました。施術後から肌のハリが感じられ、自分史上最高の肌に出会えました。これまでにないリフレッシュ感を感じます！"
+                        </p>
+                        <p class="mt-4 text-gray-500 font-bold text-sm">- 50代女性</p>
+                    </div>
+                    <div class="bg-cream rounded-lg shadow-lg p-8 border border-accent">
+                        <p class="text-lg text-primary italic">
+                            "自律神経バランスプログラムを受けてから、心身ともに本当にリフレッシュできました。肩こりやストレスがずっと軽くなった感覚が続いています。リラクゼーションマッサージもとても丁寧で、心が解放されるようでした。"
+                        </p>
+                        <p class="mt-4 text-gray-500 font-bold text-sm">- 40代女性</p>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Instagram Section -->
-    <section class="bg-cream py-20 px-4">
-        <div class="max-w-4xl mx-auto text-center">
-            <h2 class="text-3xl font-semibold text-accent mb-4">Instagram</h2>
-            <p class="text-lg text-primary mb-4">最新情報やビフォーアフターをチェック！</p>
-            <a href="#" class="text-accent hover:text-primary transition-colors duration-300">@健康美のInstagram</a>
-        </div>
-    </section>
+        <!-- Instagram Section -->
+        <section class="bg-cream py-20 px-4">
+            <div class="max-w-4xl mx-auto text-center">
+                <h2 class="text-3xl font-semibold text-accent mb-4">Instagram</h2>
+                <p class="text-lg text-primary mb-4">最新情報やビフォーアフターをチェック！</p>
+                <a href="#" class="text-accent hover:text-primary transition-colors duration-300">@健康美のInstagram</a>
+            </div>
+        </section>
 
-    <!-- Footer Section -->
-    <footer class="bg-gray-50 text-gray-600 py-8 text-center">
-        <p>© 2024 健康美. All rights reserved.</p>
-    </footer>
+        <!-- Footer Section -->
+        <footer class="bg-gray-50 text-gray-600 py-8 text-center">
+            <p>© 2024 健康美. All rights reserved.</p>
+        </footer>
 
 </body>
+
 </html>
